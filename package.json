@@ -1,0 +1,40 @@
+{
+  "name": "@aak.lear/eslint-setup",
+  "version": "1.0.0",
+  "description": "This package simplifies the initial setup of eslint. It installs and apply eslint-config-airbnb to your project, also resolves peerDependencies that are required for eslint-config-airbnb package.",
+  "main": "index.js",
+  "bin": {
+    "test-eslint": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "src/*/**",
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "yarn.lock"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aak-lear/eslint-setup"
+  },
+  "author": "https://github.com/aak-lear",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^4.1.1",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-airbnb",
+    "eslint-config-airbnb-typescript",
+    "eslint-config-setup"
+  ]
+}
