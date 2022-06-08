@@ -1,6 +1,6 @@
 {
   "name": "@aak.lear/eslint-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package simplifies the initial setup of eslint. It installs and apply eslint-config-airbnb to your project, also resolves peerDependencies that are required for eslint-config-airbnb package.",
   "main": "index.js",
   "bin": {

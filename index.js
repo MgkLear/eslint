@@ -146,7 +146,6 @@ const main = async ({
         extends: base
             ? configs.map((name) => baseConfigMapping[name] || name)
             : configs,
-        rules: {},
     };
 
     if (overwrites) {
