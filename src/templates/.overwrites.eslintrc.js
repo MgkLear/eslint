@@ -5,7 +5,7 @@ module.exports = {
         /* eslint-disable quote-props */
         'semi': 'error',
         '@typescript-eslint/semi': 'off',
-        '@typescript-eslint/indent': indent,
+        '@typescript-eslint/indent': [...indent, { 'ignoredNodes': ['PropertyDefinition[decorators]'] }],
         'react/jsx-indent': indent,
         'react/jsx-indent-props': indent,
         'react/jsx-props-no-spreading': 'off',
@@ -14,5 +14,8 @@ module.exports = {
             'namedComponents': ['function-declaration', 'arrow-function'],
             'unnamedComponents': ['function-expression', 'arrow-function'],
         }],
+        'react/react-in-jsx-scope': 'off',
+        'react/require-default-props': 'off',
+        'object-curly-newline': 'off',
     },
 };
